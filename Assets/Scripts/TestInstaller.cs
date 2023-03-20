@@ -6,7 +6,7 @@ public class TestInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
-        Container.Bind<string>().FromInstance("Hello World from a Mock class that implments IGreeter interface!");
+        Container.Bind<string>().FromInstance("Hello World from a Mock class that implements IGreeter interface!");
         Container.Bind<IGreeter>().To<GreeterMock>().AsSingle().NonLazy();
     }
 }
