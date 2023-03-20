@@ -1,0 +1,16 @@
+{
+  "name": "com.example.test",
+  "version": "1.0.0",
+  "displayName": "Test Package Example",
+  "description": "This is an example package",
+  "unity": "2021.3",
+  "unityRelease": "5f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "author": {
+    "name": "Rafalfaro",
+    "email": "rafalfaro_18@outlook.com",
+    "url": "https://www.rafalfaro.com"
+  }
+}
