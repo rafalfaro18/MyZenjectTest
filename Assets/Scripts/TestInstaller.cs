@@ -21,4 +21,8 @@ public class GreeterMock : IGreeter
         Debug.Log(this.id);
         Debug.Log(message);
     }
+
+    public void SayHello(UserJoinedSignal userJoinedInfo){
+        Debug.Log("Hello " + userJoinedInfo.Username + "! From a Mock class that implements IGreeter interface!");
+    }
 }

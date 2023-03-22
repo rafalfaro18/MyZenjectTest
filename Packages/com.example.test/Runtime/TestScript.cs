@@ -29,5 +29,6 @@ public class TestScript : MonoBehaviour
 public interface IGreeter
 {
     void Start();
+    void SayHello(UserJoinedSignal userJoinedInfo);
 }
 
